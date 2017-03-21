@@ -6,7 +6,7 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="css/automizyee.css"/>
-    <link rel="stylesheet" href="http://developers.automizy.com/emaileditor/dist/vendor/automizy-js/automizy.min.css"/>
+    <link rel="stylesheet" href="https://developers.automizy.com/emaileditor/dist/vendor/automizy-js/automizy.min.css"/>
     <link rel="stylesheet" href="css/tomorrow.css"/>
     <link rel="shortcut icon" type="image/png" href="images/Automizy_favicon.png"/>
     <script src="js/jquery-2.1.3.min.js"></script>
@@ -26,10 +26,10 @@
         })(window, document, 'script', 'dataLayer', 'GTM-NSKWRM7');</script>
     <!-- End Google Tag Manager -->"
     <script src="js/prettify.js"></script>
-    <script src="http://developers.automizy.com/emaileditor/dist/vendor/automizy-js/automizy.min.js"></script>
-    <script src="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.js"></script>
+    <script src="https://developers.automizy.com/emaileditor/dist/vendor/automizy-js/automizy.min.js"></script>
+    <script src="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.js"></script>
     <link rel="stylesheet" type="text/css"
-          href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.css">
+          href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.css">
     <script src="js/gfranko-jquery.tocify.js-c179865/src/javascripts/jquery.tocify.min.js"></script>
     <script>
         var setContentWidth = function () {
@@ -84,7 +84,7 @@
             $('#start-demo').click(function () {
                 $AEE.open(200);
             });
-            $AEE.baseDir('http://developers.automizy.com/emaileditor/dist').init(console.log('INIT STARTED!')).scriptLoaded(function (editorStatus) {
+            $AEE.baseDir('https://developers.automizy.com/emaileditor/dist').init(console.log('INIT STARTED!')).scriptLoaded(function (editorStatus) {
                 console.log('PLUGIN LOAD: ', editorStatus);
             }).ready(function () {
                 console.log('ALL PLUGIN LOADED');
@@ -108,12 +108,12 @@
             /*Creating download dialog*/
             var downloadDialog = $A.newDialog({
                 title: "Download Automizy Email Editor",
-                content: $('<a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.css" target="_blank">Download the uncompressed, development CSS file for Automizy Email Editor.</a></br>\n\
-                        <a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.css" target="_blank">Download the compressed, production CSS file for Automizy Email Editor.</a></br>\n\
-                        <a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.js" target="_blank">Download the uncompressed, development JavaScript file for Automizy Email Editor.</a></br>\n\
-                        <a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.js" target="_blank">Download the compressed, production JavaScript file for Automizy Email Editor.</a></br>\n\
-                        <a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.map" target="_blank">Download the map file for Automizy Email Editor.</a></br>\n\
-                        <a href="http://developers.automizy.com/emaileditor/dist/automizy-email-editor.zip" target="_blank">Download the all in one ZIP file for Automizy Email Editor.</a></br>\n\
+                content: $('<a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.css" target="_blank">Download the uncompressed, development CSS file for Automizy Email Editor.</a></br>\n\
+                        <a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.css" target="_blank">Download the compressed, production CSS file for Automizy Email Editor.</a></br>\n\
+                        <a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.js" target="_blank">Download the uncompressed, development JavaScript file for Automizy Email Editor.</a></br>\n\
+                        <a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.js" target="_blank">Download the compressed, production JavaScript file for Automizy Email Editor.</a></br>\n\
+                        <a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.min.map" target="_blank">Download the map file for Automizy Email Editor.</a></br>\n\
+                        <a href="https://developers.automizy.com/emaileditor/dist/automizy-email-editor.zip" target="_blank">Download the all in one ZIP file for Automizy Email Editor.</a></br>\n\
                         ')
             });
             $('.downloads').click(function () {
@@ -128,7 +128,7 @@
     <img id='menu-icon' src="images/menu-icon.png"/>
     <h1>Automizy Email Editor Docs</h1>
     <div class="header-buttons">
-        <a title="Automizy Developers" alt="Automizy Developers" href="http://developers.automizy.com"
+        <a title="Automizy Developers" alt="Automizy Developers" href="https://developers.automizy.com"
            class="header-button">Developers Page</a>
         <a title="Automizy Email Editor on GitHub" alt="Automizy Email Editor on GitHub"
            href="https://github.com/Automizy/Automizy-Email-Editor" target="_blank" class="header-button">GitHub</a>
